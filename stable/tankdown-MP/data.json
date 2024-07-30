@@ -1,0 +1,12 @@
+{
+  "info": {
+    "hp_opp": {
+      "address": 33719525,
+      "type": "|u1"
+    },
+    "hp_player": {
+      "address": 33719521,
+      "type": ">u4"
+    }
+  }
+}
