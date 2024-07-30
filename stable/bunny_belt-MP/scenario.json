@@ -1,0 +1,26 @@
+{
+    "crop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "done": {
+      "condition": "any",
+      "variables": {
+        "time": {
+          "op": "equal"
+        },
+        "score": {
+          "op": "equal",
+          "reference": 10
+        }
+      }
+    },
+    "reward": {
+    "script": "lua:reward"
+    },
+    "scripts": [
+        "bunny_belt_reward.lua"
+    ]
+}
