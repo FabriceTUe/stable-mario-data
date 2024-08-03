@@ -8,11 +8,11 @@
   "done": {
     "variables": {
       "game_over": {
-        "op": "greater-or-equal",
+        "op": "equal",
         "reference": 1
       },
       "score": {
-        "op": "equal",
+        "op": "greater-or-equal",
         "reference": 300
       }
     }
