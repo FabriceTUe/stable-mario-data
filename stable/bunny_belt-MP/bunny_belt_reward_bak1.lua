@@ -13,7 +13,7 @@ function reward()
     if interrupted == false and prev_action < data.action and data.action > 20 then
         reward = reward + 10 -- reward 10 if model immediately pushes the right button after the last right button
     elseif prev_action + 5 < data.action and data.action > 20 then -- we had +5 because sometimes 'action' jumps by 1 randomly
-        reward = reward + 0 -- provide no reward if the model fails to press the correct button w.r.t. the last
+        reward = reward + 1 -- reward 1 if the model presses the right button, but not immediately after the previous right button
         interrupted = false -- reset interrupted
     end
 
@@ -21,7 +21,7 @@ function reward()
     if interrupted == false and prev_action > data.action and data.action <= 20 then
         reward = reward + 10 -- reward 10 if model immediately pushes the right button after the last right button
     elseif prev_action > data.action and data.action <= 20 then
-        reward = reward + 0 -- provide no reward if the model fails to press the correct button w.r.t. the last
+        reward = reward + 1 -- reward 1 if the model presses the right button, but not immediately after the previous right button
         interrupted = false -- resit interrupted
     end
 
