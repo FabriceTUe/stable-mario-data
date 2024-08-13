@@ -5,7 +5,7 @@ function reward()
     
     -- check if a mistake was made:
     if data.error_4 > 1 then
-        reward = reward - 1 -- punish model for a misstep
+        --reward = reward - 1 -- punish model for a misstep
     end
 
     -- check if model progressed to a next state:
