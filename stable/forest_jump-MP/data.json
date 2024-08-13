@@ -1,0 +1,20 @@
+{
+  "info": {
+    "HighScore": {
+      "address": 33756906,
+      "type": ">=u4"
+    },
+    "Score": {
+      "address": 33718320,
+      "type": "<u4"
+    },
+    "dead1": {
+      "address": 33672802,
+      "type": "|i1"
+    },
+    "game0": {
+      "address": 50353876,
+      "type": "|i1"
+    }
+  }
+}
