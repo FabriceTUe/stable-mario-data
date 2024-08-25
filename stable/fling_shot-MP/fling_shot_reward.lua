@@ -14,7 +14,7 @@ function reward()
 
     -- reward distance travelled
     if score ~= -127 and prev_score < score then
-        reward = reward + (x_coord - prev_x_coord)
+        reward = reward + (score - prev_score)
     end
 
     -- update globals
