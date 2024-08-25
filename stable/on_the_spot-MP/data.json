@@ -23,6 +23,10 @@
     "time": {
       "address": 33718382,
       "type": "<u4"
+    },
+    "count": {
+      "address": 33718431,
+      "type": ">d6"
     }
   }
 }
