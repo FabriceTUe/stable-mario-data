@@ -2,7 +2,7 @@ previous_score = 0
 time = 0
 
 function reward()
-    local score_rew = data.broom_zoom_score - previous_score
+    local score_rew = (data.broom_zoom_score - previous_score) * 2
     previous_score = data.broom_zoom_score
     
     if score_rew > 0 then

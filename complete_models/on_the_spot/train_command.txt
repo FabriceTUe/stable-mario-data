@@ -1,0 +1,1 @@
+train_model.py --discretize --normalize_observation --with_wandb --resize_observation --record --game on_the_spot --model PPO --learning_rate 0.00003 --ent_coeff 0.05 --log_reward_summary --save_best --eval_freq 100 --features_extractor NatureRNN --skip_frames --n_skip_frames 24
