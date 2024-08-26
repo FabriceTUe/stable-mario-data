@@ -9,7 +9,7 @@ function reward()
 
     -- reward build up
     if score == -127 and x_coord < prev_x_coord then
-        reward = reward + (prev_x_coord - x_coord) * 0.0002 -- caps it at around 1000 score
+        reward = reward + (prev_x_coord - x_coord) * 0.0015 -- caps it at around 2000 score
     end
 
     -- reward distance travelled
