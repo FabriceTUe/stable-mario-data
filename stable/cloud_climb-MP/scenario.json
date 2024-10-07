@@ -13,10 +13,9 @@
     }
   },
   "reward": {
-    "variables": {
-      "height": {
-        "reward": -0.001
-      }
-    }
-  }
+    "script": "lua:reward"
+  },
+  "scripts":[
+    "reward.lua"
+  ]
 }
