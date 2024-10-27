@@ -11,6 +11,10 @@
     "score2": {
       "address": 33718373,
       "type": ">u4"
+    },
+    "time": {
+      "address": 33718401,
+      "type": "|u1"
     }
   }
 }
