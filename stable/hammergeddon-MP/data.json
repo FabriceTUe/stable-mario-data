@@ -1,16 +1,12 @@
 {
   "info": {
-    "hp_opp": {
-      "address": 33719474,
-      "type": "<u2"
-    },
-    "hp_player": {
-      "address": 33719472,
-      "type": "<u2"
-    },
     "ingame": {
       "address": 33744576,
       "type": "=u2"
+    },
+    "y": {
+      "address": 33688243,
+      "type": ">=i4"
     }
   }
 }

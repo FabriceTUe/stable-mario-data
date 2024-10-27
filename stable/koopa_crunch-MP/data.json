@@ -1,8 +1,12 @@
 {
   "info": {
+    "ingame": {
+      "address": 33744576,
+      "type": "=u2"
+    },
     "score": {
-      "address": 33719497,
-      "type": "<i2"
+      "address": 33718340,
+      "type": "<u4"
     }
   }
 }
