@@ -21,10 +21,10 @@
   "reward": {
     "variables": {
       "hp_opp": {
-        "penalty": 1.0
+        "reward": -1.0
       },
       "hp_player": {
-        "penalty": -1.0
+        "reward": 1.0
       }
     }
   }
