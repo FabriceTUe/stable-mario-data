@@ -1,0 +1,12 @@
+{
+  "info": {
+    "mario": {
+      "address": 33657422,
+      "type": "|i1"
+    },
+    "score": {
+      "address": 50358319,
+      "type": ">u2"
+    }
+  }
+}
