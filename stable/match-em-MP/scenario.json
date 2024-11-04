@@ -10,11 +10,11 @@
     "variables": {
       "coins": {
         "op": "less-than",
-        "reference": 780
+        "reference": 0
       },
       "coins": {
         "op": "greater-than",
-        "reference": 820
+        "reference": 30
       }
     }
   },

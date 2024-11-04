@@ -7,20 +7,24 @@
   ],
   "done": {
     "variables": {
-      "time": {
-        "op": "equal",
-        "reference": 45
+      "ingame": {
+        "op": "equal"
       }
     }
   },
   "reward": {
     "variables": {
-      "score": {
-        "reward": 1.0
+      "blue": {
+        "reward": 0.10000000149011612
       },
-      "time": {
-        "op": "greater-than",
-        "reward": 1.0
+      "green": {
+        "reward": 0.30000001192092896
+      },
+      "red": {
+        "reward": 0.10000000149011612
+      },
+      "yellow": {
+        "reward": 0.20000000298023224
       }
     }
   }
