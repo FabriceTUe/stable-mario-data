@@ -12,9 +12,17 @@
       "address": 33719846,
       "type": "<u4"
     },
+    "x": {
+      "address": 33676977,
+      "type": "=u2"
+    },
     "x_pos": {
       "address": 33677119,
       "type": "<u4"
+    },
+    "y": {
+      "address": 33676981,
+      "type": "=u2"
     },
     "y_pos": {
       "address": 33672319,
