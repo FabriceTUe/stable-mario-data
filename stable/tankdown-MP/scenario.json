@@ -6,26 +6,16 @@
     0
   ],
   "done": {
-    "condition": "any",
     "variables": {
-      "hp_opp": {
-        "op": "equal",
-        "reference": 0
-      },
-      "hp_player": {
-        "op": "equal",
-        "reference": 0
+      "ingame": {
+        "op": "equal"
       }
     }
   },
   "reward": {
-    "variables": {
-      "hp_opp": {
-        "penalty": 1.0
-      },
-      "hp_player": {
-        "penalty": -1.0
-      }
-    }
-  }
+    "script": "lua:reward"
+  },
+  "scripts": [
+    "reward.lua"
+  ]
 }
