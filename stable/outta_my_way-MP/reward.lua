@@ -13,5 +13,5 @@ function reward()
     else
         reward = 0
     end
-    return score_rew;
+    return reward;
 end
