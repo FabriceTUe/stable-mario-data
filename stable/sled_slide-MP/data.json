@@ -7,6 +7,10 @@
     "progress": {
       "address": 33719962,
       "type": ">u2"
+    },
+    "speed": {
+      "address": 33719848,
+      "type": "=i4"
     }
   }
 }
