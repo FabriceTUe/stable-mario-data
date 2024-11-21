@@ -11,6 +11,10 @@
     "speed": {
       "address": 33719848,
       "type": "=i4"
+    },
+    "time": {
+      "address": 33719930,
+      "type": "><u4"
     }
   }
 }

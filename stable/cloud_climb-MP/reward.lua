@@ -1,8 +1,8 @@
 tottime = 0
 finished = 0
 function reward()
+    local reward
     if finished == 0 then
-        local reward
         local height = data.height
         reward = -0.0000000000001*(height - 2700 - ((1897-2880)/2800)*tottime)^3
         if height < 2200 and reward > 0 then
