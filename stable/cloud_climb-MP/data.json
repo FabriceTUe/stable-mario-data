@@ -12,9 +12,9 @@
       "address": 33718277,
       "type": "=i2"
     },
-    "x-coordinate": {
-      "address": 33649665,
-      "type": "=u2"
+    "timer": {
+      "address": 33719846,
+      "type": "<u4"
     },
     "xcoordinate": {
       "address": 33649345,

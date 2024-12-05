@@ -7,13 +7,8 @@
   ],
   "done": {
     "variables": {
-      "game_over": {
-        "op": "equal",
-        "reference": 1
-      },
-      "score": {
-        "op": "greater-or-equal",
-        "reference": 300
+      "ingame": {
+        "op": "equal"
       }
     }
   },
